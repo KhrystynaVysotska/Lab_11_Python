@@ -4,7 +4,6 @@ from src.main.python.ua.lviv.iot.shop.model.gender import Gender
 from src.main.python.ua.lviv.iot.shop.model.season import Season
 from src.main.python.ua.lviv.iot.shop.model.sort_type import SortType
 from doctest import testmod
-
 from src.main.python.ua.lviv.iot.shop.model.sweater import Sweater
 
 
