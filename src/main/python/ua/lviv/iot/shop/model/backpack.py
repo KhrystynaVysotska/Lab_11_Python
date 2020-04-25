@@ -1,10 +1,11 @@
-from src.main.python.ua.lviv.iot.shop.model import season, gender
 from src.main.python.ua.lviv.iot.shop.model.abstract_accessories import AbstractAccessories
+from src.main.python.ua.lviv.iot.shop.model.gender import Gender
+from src.main.python.ua.lviv.iot.shop.model.season import Season
 
 
 class Backpack(AbstractAccessories):
-    def __init__(self, season_name: season, country_of_manufacture: str, brand_name: str, price_in_uah: float,
-                 gender_category: gender, material: str, color: str, size: int, item_id: int, accessories_type: str,
+    def __init__(self, season_name: Season, country_of_manufacture: str, brand_name: str, price_in_uah: float,
+                 gender_category: Gender, material: str, color: str, size: int, item_id: int, accessories_type: str,
                  print_type: str, length_in_centimetres: float, width_in_centimetres: float,
                  height_in_centimetres: float, weight_in_kilograms: float,
                  max_capacity_in_litres: float, number_of_compartments: int) -> None:
