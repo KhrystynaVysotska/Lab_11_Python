@@ -1,8 +1,8 @@
 from enum import Enum
 
 
-class Season(Enum):
-    WINTER = 1
-    SPRING = 2
-    AUTUMN = 3
-    SUMMER = 4
+class Season(str, Enum):
+    WINTER: str = "WINTER"
+    SPRING: str = "SPRING"
+    AUTUMN: str = "AUTUMN"
+    SUMMER: str = "SUMMER"
