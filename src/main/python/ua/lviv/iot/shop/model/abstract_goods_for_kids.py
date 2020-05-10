@@ -3,7 +3,7 @@ from src.main.python.ua.lviv.iot.shop.model.gender import Gender
 from src.main.python.ua.lviv.iot.shop.model.season import Season
 
 
-class AbstractGoodsForKids(ABC):
+class AbstractGoodsForKids:
 
     def __init__(self, season_name: Season, country_of_manufacture: str, brand_name: str, price_in_uah: float,
                  gender_category: Gender, material: str, color: str, size: int, item_id: int) -> None:
